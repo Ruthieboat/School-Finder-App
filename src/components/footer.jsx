@@ -4,16 +4,16 @@ import { FacebookIcon, InstagramIcon, Twitter, TwitterIcon } from "lucide-react"
 
 const Footer = () => {
   return (
-    <div className=" bg-[#8345B9]">
+    <div className=" bg-[#ae7fd8]">
 
       <div className="flex flex-row gap-40 p-3">
         <span>
           <h2 className="text-2xl font-bold text-white">findSchool </h2>
           <p>A small river named <br />Duden flows by their place <br /> and supplies it with <br />the necessary regelialia.</p>
-          <div className="flex flex-row gap-2 rounded-md pb-4">
-            <TwitterIcon className="text-white bg-[#6DB7DD]" />
-            <FacebookIcon className="text-white bg-[#6DB7DD]" />
-            <InstagramIcon className="text-white bg-[#6DB7DD]" />
+          <div className="flex flex-row gap-3 px-8">
+            <TwitterIcon className="text-black bg-white rounded-lg" />
+            <FacebookIcon className="text-black bg-white rounded-lg" />
+            <InstagramIcon className="text-black bg-white rounded-lg" />
           </div>
         </span>
         <span className="gap-3">
@@ -39,7 +39,7 @@ const Footer = () => {
         </span>
       </div>
 
-      <div className="flex flex-row width-full p-12 bg-[#410074] ">
+      <div className="flex flex-row width-full p-12 bg-[#3e0c44] ">
         <p className="text-[#808080]">Copyright ©2024 All rights reserved | This template is made with love</p>
       </div>
     </div>
