@@ -1,6 +1,6 @@
 import React from 'react'
 import shero from '../../../assets/images/schero.jpg'
-import top from '../../../assets/images/top.png'
+import top from '../../../assets/images/herop.jpg'
 
 const Hero = () => {
   return (
@@ -8,7 +8,7 @@ const Hero = () => {
       {/* <img src={shero} alt="Hero background" className="object-contain relative w-full h-full" /> */}
       <img src={top} alt="top pic" className='bottom-0 right-0' />
       <h1 className='text-6xl font-bold  text-[#4B0A80] absolute top-1/2 left-1/2 -translate-y-1/2'>Find the best school <br />for you child in a click</h1>
-      <label className="input input-bordered flex items-center gap-5 w-1/2 ">
+      <label className="input input-bordered flex items-center gap-5 w-1/2 pl-10 ">
         <input type="text" className="grow" placeholder="Search" />
         <svg
           xmlns="http://www.w3.org/2000/svg"
