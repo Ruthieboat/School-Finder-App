@@ -17,10 +17,10 @@ const K = {
             name: "Sign In",
             path: "/contact-us",
         },
-        {
-            name: "Add School",
-            path: "/contact-us",
-        },
+        // {
+        //     name: "Add School", 
+        //     path: "/contact-us",
+        // },
     ],
     GETSTARTED: [
         {

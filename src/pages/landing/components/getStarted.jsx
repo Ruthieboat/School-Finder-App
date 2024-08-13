@@ -11,7 +11,7 @@ const GetStarted = () => {
   return (
     <div>
         <h2 className='text-6xl font-bold text-[#D87357] justify-evenly p-10'>Get Started</h2>
-        <div className='grid grid-cols-4 gap-5 py-5 shadow-lg shadow-xl'>
+        <div className='grid grid-cols-4 gap-5 py-5 shadow-lg '>
         <StartCard imgSrc={create} imgAlt={'start'} title={'Create Profile'} description={'If a dog chews shoes whose shoes does he choose?'} btnText={'Learn more'} btnLink={'SchoolPage'} />
         
         <StartCard imgSrc={fill} imgAlt={'start'} title={'Filter to Search'} description={'If a dog chews shoes whose shoes does he choose?'} btnText={'Learn more'} btnLink={'SchoolPage'} />

@@ -3,11 +3,16 @@ import shero from '../../../assets/images/schero.jpg'
 import top from '../../../assets/images/herop.jpg'
 
 const Hero = () => {
+  
   return (
     <div>
       {/* <img src={shero} alt="Hero background" className="object-contain relative w-full h-full" /> */}
-      <img src={top} alt="top pic" className='bottom-0 right-0' />
-      <h1 className='text-6xl font-bold  text-[#4B0A80] absolute top-1/2 left-1/2 -translate-y-1/2'>Find the best school <br />for you child in a click</h1>
+      <img src={top} alt="top pic" className='bottom-3 right-0' />
+      <div>
+      <h1 className='text-6xl font-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent absolute top-1/2 left-1/2 -translate-y-1/2'>Find the best school <br />for you child in a click</h1>
+      </div>
+    
+     
       <label className="input input-bordered flex items-center gap-5 w-1/2 pl-10 ">
         <input type="text" className="grow" placeholder="Search" />
         <svg
@@ -21,6 +26,11 @@ const Hero = () => {
             clipRule="evenodd" />
         </svg>
       </label>
+
+
+
+
+
       <label className="input input-bordered flex items-center gap-2">
         
       </label>
