@@ -6,21 +6,21 @@ const K = {
             path: "/",
         },
         {
-            name: "Find Us",
+            name: "Find School",
             path: "/about",
         },
         {
-            name: "Careers",
+            name: "Find Us",
             path: "/collection",
         },
         {
-            name: "Sign In",
+            name: "Sign Up",
             path: "/contact-us",
         },
-        // {
-        //     name: "Add School", 
-        //     path: "/contact-us",
-        // },
+        {
+            name: "Add School", 
+            path: "/contact-us",
+        },
     ],
     GETSTARTED: [
         {

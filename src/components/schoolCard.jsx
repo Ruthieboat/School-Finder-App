@@ -3,8 +3,8 @@ import sch from '../assets/images/schbu3.jpg'
 import { DevicePhoneMobileIcon, MapPinIcon, StarIcon } from '@heroicons/react/20/solid'
 
 
-const SchoolCard = ({image, schoolName, location, number}) => {
-  
+const SchoolCard = ({ image, schoolName, location, number }) => {
+
   return (
     <div className="card lg:card-side bg-base-100 max-w-2xl shadow-xl">
       <figure className='w-64'>
@@ -22,12 +22,13 @@ const SchoolCard = ({image, schoolName, location, number}) => {
           <DevicePhoneMobileIcon className='w-6 h-6' />
           <p className='text-sm'>{number}</p>
         </span>
-        <span className='flex '>
-          <StarIcon className='w-6 h-6' />
-          <StarIcon className='w-6 h-6' />
-          <StarIcon className='w-6 h-6' />
-          <StarIcon className='w-6 h-6' />
-        </span>
+        <div className="rating">
+          <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#D87357]" />
+          <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#D87357]" defaultChecked />
+          <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#D87357]" />
+          <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#D87357]" />
+          <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#D87357]" />
+        </div>
 
         <div className="card-actions justify-end">
           <button className="btn btn-neutral">Get Details</button>

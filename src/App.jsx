@@ -4,6 +4,8 @@ import Landing from './pages';
 import RootLayout from './layouts/rootLayout';
 import Contact from './pages/contact';
 import PresentPage from './pages/presentPage';
+import SignIn from './pages/auth/signIn';
+import SignUp from './pages/auth/signUp';
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
         },
         { path: "/contact", element: <Contact /> },
         { path: "/present", element: <PresentPage /> },
+        { path: "/signin", element: <SignIn /> },
+        { path: "/signup", element: <SignUp /> },
       ]
     }
   ]);
