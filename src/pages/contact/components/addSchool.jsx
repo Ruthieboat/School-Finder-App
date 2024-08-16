@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 const AddSchool = () => {
     const navigate = useNavigate();
     return (
-        <div className="bg-[#b7a2c9] bg-cover h-full flex justify-evenly p-12">
+        <div className="bg-[#D87357] bg-cover h-full flex justify-evenly p-12">
             <div className="w-[400px] h-1/4 object-cover">
                 <h1
                     style={{ fontFamily: "Monaco" }}

@@ -5,7 +5,7 @@ import down from "../assets/images/do.png";
 
 const Footer = () => {
   return (
-    <div className=" bg-[#37F7F2]">
+    <div className=" bg-[#37F7F2] mt-5">
 
       <div className="flex flex-row gap-40 p-3">
         <span>

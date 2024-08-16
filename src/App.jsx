@@ -20,11 +20,11 @@ function App() {
           element: <Landing />,
         },
         { path: "/contact", element: <Contact /> },
-        { path: "/present", element: <PresentPage /> },
-        { path: "/signin", element: <SignIn /> },
-        { path: "/signup", element: <SignUp /> },
+        { path: "/schools", element: <PresentPage /> },
       ]
-    }
+    },
+    { path: "/signin", element: <SignIn /> },
+    { path: "/signup", element: <SignUp /> },
   ]);
   return <RouterProvider router={router} />;
 

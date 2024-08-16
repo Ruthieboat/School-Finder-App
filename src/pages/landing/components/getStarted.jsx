@@ -71,8 +71,10 @@ const GetStarted = () => {
 
 return (
   
-  <div >
-     <h2 className='text-6xl font-bold text-[#EB5831] justify-evenly p-10'>Get Started</h2>
+  <div>
+
+     <h2 className='text-6xl font-bold text-[#EB5831] justify-evenly p-5'>Get Started</h2>
+     
      <div className='grid grid-cols-4 gap-5 py-5 shadow-lg justify-center '>
      <StartCard imgSrc={create} imgAlt={'start'} title={'Search'} description={'Type in the name of the school or the area you want to find a school'} btnText={'Learn more'} btnLink={'SchoolPage'} />
 
