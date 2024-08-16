@@ -1,7 +1,9 @@
 import React from 'react'
 import SignUpForm from '../../components/SignUpForm'
+import signup from '../../assets/images/sign.jpg'
 
 const SignUp = () => {
+  const navigate = useNavigate();
   return (
     <div className="grid md:grid-cols-2 h-screen w-full">
       <div className="bg-pink/60 hidden md:flex items-center">

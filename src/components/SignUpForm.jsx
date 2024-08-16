@@ -221,7 +221,7 @@ const SignUpForm = () => {
             </button>
             <div className="flex gap-x-2 w-full text-center justify-center">
                 <p>Already have an account?</p>
-                <Link to="/login" className="underline">
+                <Link to="/signin" className="underline">
                     Login
                 </Link>
             </div>

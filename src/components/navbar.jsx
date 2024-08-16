@@ -7,9 +7,10 @@ const Navbar = () => {
 
     return (
         <div className="flex justify-between px-50 py-5 w-full left-0 top-0 text-[#D87357] font-bold">
-            <span className="font-bold text-3xl ">findSchool
-                <MagnifyingGlassCircleIcon className="flex flex-row size-5" />
-            </span>
+            <div className="flex">
+                <h1 className="text-4xl ">clikschool</h1>
+                <MagnifyingGlassCircleIcon className="size-3 " />
+            </div>
             <div className="flex gap-x-12">
                 {
                     K.NAVLINKS.map(
