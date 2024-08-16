@@ -1,6 +1,12 @@
 import React from 'react'
 import top from '../../../assets/images/sch.jpg'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
+import herop from '../../../assets/images/herop.jpg'
+
+
+
+
+
 const Hero = () => {
   const [text] = useTypewriter({
     words: ["Find the best School for your child", "In your new location", "With ClikSchool"],
@@ -17,8 +23,18 @@ const Hero = () => {
       </div>
 
       <div>
-        <h1>About Us</h1>
-        
+        <h1 className='text-5xl font-bold text-[#EB5831] p-10 justify-normal '>About Us</h1>
+        <span className='flex flex-row'>
+          <p className='font-bold'>At ClikSchool, our mission is to make finding the perfect school for your child easier and more accessible. Whether you're relocating to a new area or simply exploring better educational opportunities, we are here to guide you through the process of locating the ideal school that meets your unique needs.
+
+            We understand that choosing a school is one of the most important decisions you will make for your child’s future. That's why we have designed our platform to offer comprehensive information on schools in your area, including public, private, charter, and special education institutions. With detailed profiles, user reviews, location mapping, and key performance indicators, you can compare schools with confidence and make informed decisions.
+
+            Our team is passionate about education and dedicated to providing up-to-date information, intuitive search functionality, and personalized recommendations to help parents, guardians, and students navigate the complexities of finding the right school. We believe that every child deserves access to quality education, and our goal is to help you discover the best learning environments available.</p>
+            <img src={herop} alt="" className='size-[400px] mt-[-5]' />
+
+
+        </span>
+
       </div>
 
     </div>

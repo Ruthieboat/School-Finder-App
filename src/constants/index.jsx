@@ -14,7 +14,7 @@ const K = {
             path: "/collection",
         },
         {
-            name: "Sign In",
+            name: "Sign Up",
             path: "/contact-us",
         },
         
