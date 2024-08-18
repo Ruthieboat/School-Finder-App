@@ -203,10 +203,6 @@ const SignUpForm = () => {
                     className="border-2 p-1 rounded-md"
                     {...register("password", {
                         required: "Password is required",
-                        minLength: {
-                            // value: 8,
-                            // message: "Password length must be more than 8 characters",
-                        },
                     })}
                 />
                 {errors.password && (
