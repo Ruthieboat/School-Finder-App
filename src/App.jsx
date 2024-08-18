@@ -7,6 +7,10 @@ import PresentPage from './pages/presentPage';
 import SignIn from './pages/auth/signIn';
 import SignUp from './pages/auth/signUp';
 import FullSchool from './pages/presentPage/components/fullSchool';
+import { toast } from 'react-toastify';
+import apiGetUserDetails from './services/auth';
+import { Loader } from 'lucide-react';
+
 
 
 function App() {
@@ -26,8 +30,28 @@ function App() {
     },
     { path: "/signin", element: <SignIn /> },
     { path: "/signup", element: <SignUp /> },
-    { path: "/details", element: <FullSchool /> },
+    { path: "/details", element: <FullSchool /> 
+
+    },
+
+    {loader: async ({ params }) => {
+      const username = params.username;
+      try {
+        const response = await apiGetUserDetails(username);
+        const userProfileData = response?.data.user;
+        return userProfileData;
+      } catch (error) {
+        toast.error("An error occured");
+        return null;
+      }
+      },
+    },
+      {
+        path: "*",
+        element: <NotFound />,
+      },
   ]);
+
   return <RouterProvider router={router} />;
 
 }
