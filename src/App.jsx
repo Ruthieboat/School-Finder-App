@@ -6,6 +6,7 @@ import Contact from './pages/contact';
 import PresentPage from './pages/presentPage';
 import SignIn from './pages/auth/signIn';
 import SignUp from './pages/auth/signUp';
+import FullSchool from './pages/presentPage/components/fullSchool';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
     },
     { path: "/signin", element: <SignIn /> },
     { path: "/signup", element: <SignUp /> },
+    { path: "/details", element: <FullSchool /> },
   ]);
   return <RouterProvider router={router} />;
 

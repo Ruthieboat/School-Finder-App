@@ -1,9 +1,23 @@
 import React from 'react'
 import sch from '../assets/images/schbu3.jpg'
 import { DevicePhoneMobileIcon, MapPinIcon, StarIcon } from '@heroicons/react/20/solid'
+import { useNavigate } from 'react-router-dom'
 
 
 const SchoolCard = ({ image, schoolName, location, number }) => {
+  const navigate = useNavigate();
+
+  const Rating = () => {
+    return (
+      <div className="rating">
+        <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#D87357]" />
+        <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#D87357]" defaultChecked />
+        <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#D87357]" />
+        <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#D87357]" />
+        <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#D87357]" />
+      </div>
+    )
+  }
 
   return (
     <div className="card lg:card-side bg-base-100 max-w-2xl shadow-xl">
@@ -31,7 +45,8 @@ const SchoolCard = ({ image, schoolName, location, number }) => {
         </div>
 
         <div className="card-actions justify-end">
-          <button className="btn btn-neutral">Get Details</button>
+          <button onClick={() => navigate('/details')}
+          className="btn btn-neutral">Get Details</button>
         </div>
       </div>
     </div>

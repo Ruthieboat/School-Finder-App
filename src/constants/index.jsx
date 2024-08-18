@@ -17,6 +17,7 @@ const K = {
             name: "Find School",
             path: "/schools",
         },
+    
        
         
     ],

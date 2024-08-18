@@ -79,12 +79,12 @@ const SignInForm = () => {
       </div>
       <button
         type="submit"
-        className="bg-pink text-white w-full p-2 rounded-md font-semibold flex justify-center"
+        className="bg-pink text-black w-full p-2 rounded-md font-semibold flex justify-center"
       >
         {isSubmitting ? <Loader /> : "Login"}
       </button>
       <div className="flex flex-col md:flex-row gap-x-2 w-full text-center justify-center">
-        <p>Don&apos;t have an account?</p>
+        <p>Don't have an account?</p>
         <Link to="/signup" className="underline">
           Sign up
         </Link>
