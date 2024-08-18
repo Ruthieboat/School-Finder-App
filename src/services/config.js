@@ -6,30 +6,14 @@ const baseUrl = import.meta.env.VITE_BASE_URL;
 export const apiClient = axios.create({
   baseURL: baseUrl,
 });
+export const getToken = () => localStorage.getItem("accessToken");
 
-export const getDetails = () => {
-  const user = {};
+export const clearToken = () => localStorage.removeItem("accessToken");
 
-  user.token = localStorage.getItem("accessToken");
-  user.firstName = localStorage.getItem("firstName");
-  user.lastName = localStorage.getItem("lastName");
-  user.userName = localStorage.getItem("userName");
-
-  return user;
-};
-
-export const clearDetails = () => {
-  localStorage.removeItem("accessToken");
-  localStorage.removeItem("firstName");
-  localStorage.removeItem("lastName");
-  localStorage.removeItem("userName");
-};
-
-//Interceptor to add token to authorization header for every request
 apiClient.interceptors.request.use(
   (config) => {
     // Check if there's a token in localStorage
-    const { token } = getDetails();
+    const token = getToken();
     if (token) {
       // Set the token in the Authorization header
       config.headers.Authorization = `Bearer ${token}`;
@@ -42,7 +26,7 @@ apiClient.interceptors.request.use(
   }
 );
 
-// Another interceptor to handle response errors
+// Add a response interceptor
 apiClient.interceptors.response.use(
   (response) => {
     // If a response is received, just return it unchanged
@@ -52,7 +36,7 @@ apiClient.interceptors.response.use(
     // If there's an error in the response (like a 401), handle it here
     if (error.response.status === 401) {
       // remove accessToken from local storage
-      clearDetails();
+      clearToken();
       // Handle 401 error (e.g., logout user and redirect to login page)
       window.location.replace("/login");
     }
