@@ -23,7 +23,7 @@ const Navbar = () => {
             </div>
             <div className="flex gap-x-4">
             <button onClick={() => navigate("/signup")} className="btn border-2 border-[#D87357] bg-white w-32 shadow-md text-black rounded-lg">Get Started</button>
-            <button onClick={() => navigate("/login")} className="btn bg-[#D87357] w-32 shadow-md text-white rounded-lg">Login</button>
+            <button onClick={() => navigate("/signin")} className="btn bg-[#D87357] w-32 shadow-md text-white rounded-lg">Login</button>
             </div>
         </div>
     )

@@ -37,7 +37,7 @@ const SignInForm = () => {
 
       toast.success(res.data.message);
       setTimeout(() => {
-        navigate("/dashboard");
+        navigate("/schools");
       }, 500);
     } catch (error) {
       console.log(error);
@@ -47,7 +47,8 @@ const SignInForm = () => {
     }
   };
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+    <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 flex flex-col max-w-[420px] mx-auto">
+      <h3 className="text-4xl text-center font-bold">Welcome back</h3>
       <div className="flex flex-col w-full space-y-1">
         <label htmlFor="email" className="font-semibold">
           Email
@@ -79,7 +80,7 @@ const SignInForm = () => {
       </div>
       <button
         type="submit"
-        className="bg-pink text-black w-full p-2 rounded-md font-semibold flex justify-center"
+        className="h-[48px] w-full bg-[#D87357] text-white font-bold rounded-md"
       >
         {isSubmitting ? <Loader /> : "Login"}
       </button>

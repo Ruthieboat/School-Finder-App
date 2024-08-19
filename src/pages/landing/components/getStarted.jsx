@@ -82,7 +82,7 @@ return (
 
    <StartCard imgSrc={find} imgAlt={'start'} title={'Sign Up'} description={'Sign up to get more details of the school of your choice'} btnText={'Learn more'} btnLink={'SchoolPage'} />
 
-   <StartCard imgSrc={child} imgAlt={'start'} title={'Enroll'} description={'Enroll your ward in the school of your choice.'} btnText={'Learn more'} btnLink={'SchoolPage'} /> 
+   <StartCard imgSrc={child} imgAlt={'start'} title={'Enroll'} description={'Enroll your ward in the school of your choice, and enjoy all the facilities.'} btnText={'Learn more'} btnLink={'SchoolPage'} /> 
    </div>
 
   </div>
