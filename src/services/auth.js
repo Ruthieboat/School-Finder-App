@@ -1,15 +1,14 @@
-import { apiClient, clearDetails } from "./config";
+import { apiClient } from "./config";
+import { clearToken } from "./config";
 
 export const apiSignUp = async (payload) => {
-  return apiClient.post("/api/v1/users/auth/signup", payload);
+  return apiClient.post("/auth/signup", payload);
 };
-
 export const apiLogin = async (payload) => {
-  return apiClient.post("/api/v1/users/auth/token/login", payload);
+  return apiClient.post("/auth/token/login", payload);
 };
-
 export const apiLogout = async () => {
-  clearDetails();
+  clearToken();
 };
 
 export const apiCheckUsernameExists = async (userName) => {

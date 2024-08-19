@@ -8,7 +8,7 @@ const Landing = () => {
   return (
     <>
       <Hero />
-      <GetStarted />
+      {/* <GetStarted /> */}
       
     </>
   );

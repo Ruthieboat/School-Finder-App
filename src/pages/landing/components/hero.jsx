@@ -4,9 +4,8 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import herop from '../../../assets/images/herop.jpg'
 import GoogleMapEmbed from '../../../GoogleMapEmbed';
 import ContactForm from '../../../components/contactForm';
-
-
-
+import Footer from '../../../components/footer';
+import GetStarted from './getStarted';
 
 
 const Hero = () => {
@@ -35,11 +34,15 @@ const Hero = () => {
           <img src={herop} alt="" className='size-[400px] mx-20' />
         </span>
       </div>
-
-      <div id='contact'>
-        <ContactForm />
-        <GoogleMapEmbed className='max-w-xl' />
+      <div>
+        <GetStarted className='p-10'/>
       </div>
+
+      <div className='flex flex-row'>
+        <ContactForm />
+        <GoogleMapEmbed className='' />
+      </div>
+      <Footer />
 
     </div>
   );

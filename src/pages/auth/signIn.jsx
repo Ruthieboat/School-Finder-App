@@ -15,7 +15,7 @@ const SignIn = () => {
               <input type="password" name="" id="mot-de-passe" placeholder="Enter password" className=" h-[48px] rounded-[6px] px-[12px] pt-[11px] pb-2 border mt-[24px] " />
             </div>
           </div>
-          <button className="h-[48px] bg-[#D87357] mt-0 text-white font-bold rounded-md ">Sign In</button>
+          <button type="submit" className="h-[48px] w-full bg-[#D87357] text-white font-bold rounded-md ">Sign In</button>
         </form>
       </div>
     </div>
