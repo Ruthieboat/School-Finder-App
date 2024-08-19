@@ -38,7 +38,10 @@ const Hero = () => {
         <GetStarted className='p-10'/>
       </div>
 
-      <div className='flex flex-row mt-6'>
+      <h1 className='text-5xl font-bold text-[#EB5831] p-10 '>Contact Us</h1>
+
+      <div className='flex flex-row m-6'>
+        
         <ContactForm />
         <GoogleMapEmbed />
       </div>

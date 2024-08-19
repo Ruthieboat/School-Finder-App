@@ -1,7 +1,7 @@
 [
     {
         "name": "Greenwood Academy",
-        "location": "New York, NY",
+        "location": "Oyarifa, Accra",
         "contact_address": "123 Elm Street, New York, NY 10001",
         "curriculum_type": "International Baccalaureate",
         "application_status": "open",
@@ -16,7 +16,7 @@
     },
     {
         "name": "Sunrise High School",
-        "location": "Los Angeles, CA",
+        "location": "Adenta, CA",
         "contact_address": "456 Maple Avenue, Los Angeles, CA 90001",
         "curriculum_type": "American Standard",
         "application_status": "closed",
@@ -31,7 +31,7 @@
     },
     {
         "name": "Horizon College",
-        "location": "Chicago, IL",
+        "location": "Adenta, Oyarifa",
         "contact_address": "789 Oak Street, Chicago, IL 60601",
         "curriculum_type": "Montessori",
         "application_status": "open",
@@ -46,7 +46,7 @@
     },
     {
         "name": "Riverside School",
-        "location": "Houston, TX",
+        "location": "Lapaz, Kasoa",
         "contact_address": "321 Pine Street, Houston, TX 77001",
         "curriculum_type": "British",
         "application_status": "open",
@@ -61,7 +61,7 @@
     },
     {
         "name": "Valley View School",
-        "location": "Phoenix, AZ",
+        "location": "Abeka, Lapaz",
         "contact_address": "654 Cedar Avenue, Phoenix, AZ 85001",
         "curriculum_type": "Canadian",
         "application_status": "closed",
@@ -76,7 +76,7 @@
     },
     {
         "name": "Pine Hill Academy",
-        "location": "Philadelphia, PA",
+        "location": "Adentan",
         "contact_address": "987 Birch Street, Philadelphia, PA 19101",
         "curriculum_type": "American Standard",
         "application_status": "open",
@@ -91,7 +91,7 @@
     },
     {
         "name": "Oakwood Institute",
-        "location": "San Antonio, TX",
+        "location": "Atomic, Accra",
         "contact_address": "543 Willow Street, San Antonio, TX 78201",
         "curriculum_type": "International Baccalaureate",
         "application_status": "open",
@@ -106,7 +106,7 @@
     },
     {
         "name": "Maple Leaf Academy",
-        "location": "San Diego, CA",
+        "location": "Madina",
         "contact_address": "876 Maple Avenue, San Diego, CA 92101",
         "curriculum_type": "Montessori",
         "application_status": "closed",
@@ -121,7 +121,7 @@
     },
     {
         "name": "Cedar Grove School",
-        "location": "Dallas, TX",
+        "location": "New Town, TX",
         "contact_address": "123 Cedar Lane, Dallas, TX 75201",
         "curriculum_type": "British",
         "application_status": "open",
@@ -136,7 +136,7 @@
     },
     {
         "name": "Silver Lake High School",
-        "location": "San Jose, CA",
+        "location": "Atomic, Near Adenta",
         "contact_address": "234 Silver Lane, San Jose, CA 95101",
         "curriculum_type": "Canadian",
         "application_status": "closed",
@@ -151,7 +151,7 @@
     },
     {
         "name": "Mountain View Academy",
-        "location": "Austin, TX",
+        "location": "Oyarifa, Special",
         "contact_address": "345 Mountain Road, Austin, TX 73301",
         "curriculum_type": "International Baccalaureate",
         "application_status": "open",

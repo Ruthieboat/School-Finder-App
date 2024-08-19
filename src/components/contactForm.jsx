@@ -18,7 +18,7 @@ const ContactForm = () => {
       </label>
       <label className="input input-bordered flex items-center gap-2">
         <input type="text" className="grow h-50" placeholder="Enter Message" />
-        <span className="badge badge-info">Send</span>
+        <span className="bg-white rounded-md w-56 text-left">Send</span>
       </label>
 
     </div>
