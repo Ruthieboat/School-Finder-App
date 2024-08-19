@@ -49,7 +49,7 @@ const PresentPage = () => {
         <SearchIcon size={28} className='absolute pl-1 text-[#290F66] font-semibold' />
       </span>
 
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-5 py-6 '>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-5 py-6 px-5'>
         {
           input.length === 0 ?
             schools?.map((school) => (

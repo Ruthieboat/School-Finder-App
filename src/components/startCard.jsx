@@ -11,11 +11,10 @@ const StartCard = ({
 }) => {
 
   return (
-    <div className="flex flex-col gap-5 card w-80 shadow-lg">
+    <div className="flex flex-col justify-center items-center gap-5 card w-70 shadow-lg">
       <h1 className='card-title text-2xl font-bold '>{title}</h1>
       <img src={imgSrc} alt={imgAlt} className=''/>
-      <p>{description}</p>
-      <a href="SchoolPage" className='btn bg-[#D87357] rounded-md'>Learn more</a>
+      <p className=' p-2 font-bold animate-pulse '>{description}</p>
     </div>
   );
 };

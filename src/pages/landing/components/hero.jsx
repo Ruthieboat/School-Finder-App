@@ -23,10 +23,10 @@ const Hero = () => {
         <Cursor />
       </div>
 
-      <div id='about-us'>
-        <h1 className='text-5xl font-bold text-[#EB5831] pt-10  '>About Us</h1>
+      <div >
+        <h1 className='text-5xl font-bold text-[#EB5831] p-10  '>About Us</h1>
         <span className='flex flex-row'>
-          <div style={{ textAlign: 'left' }}>At ClikSchool, our mission is to make finding the perfect school for your child easier and more accessible. Whether you're relocating to a new area or simply exploring better educational opportunities, we are here to guide you through the process of locating the ideal school that meets your unique needs.
+          <div className='w-1/2 pt-5 p-10 font-bold'>At ClikSchool, our mission is to make finding the perfect school for your child easier and more accessible. Whether you're relocating to a new area or simply exploring better educational opportunities, we are here to guide you through the process of locating the ideal school that meets your unique needs.
 
             We understand that choosing a school is one of the most important decisions you will make for your child’s future. That's why we have designed our platform to offer comprehensive information on schools in your area, including public, private, charter, and special education institutions. With detailed profiles, user reviews, location mapping, and key performance indicators, you can compare schools with confidence and make informed decisions.
 
@@ -38,9 +38,9 @@ const Hero = () => {
         <GetStarted className='p-10'/>
       </div>
 
-      <div className='flex flex-row'>
+      <div className='flex flex-row mt-6'>
         <ContactForm />
-        <GoogleMapEmbed className='' />
+        <GoogleMapEmbed />
       </div>
       <Footer />
 

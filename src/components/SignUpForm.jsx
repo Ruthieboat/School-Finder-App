@@ -309,7 +309,6 @@ const SignUpForm = () => {
         }
     };
     
-
     return (
         <form className="space-y-6 w-full" onSubmit={handleSubmit(onSubmit)}>
             <div className="grid lg:grid-cols-2 gap-5 w-full">
