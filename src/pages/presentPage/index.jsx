@@ -45,8 +45,8 @@ const PresentPage = () => {
           type="Search"
           value={input}
           onChange={handleChange}
-          className='relative w-full h-12 border-gray-500 border-2 rounded-3xl pl-10 pr-5 hover:shadow-2xl' placeholder='Search...' />
-        <SearchIcon size={28} className='absolute pl-1 text-[#290F66] font-semibold' />
+          className='relative w-full h-12 border-gray-500 mx-16 px-7 border-2 rounded-3xl focus:outline-none hover:shadow-2xl' placeholder='Search...' />
+        <SearchIcon size={28} className='absolute mx-16 text-[#290F66] font-semibold' />
       </span>
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-5 py-6 px-5'>
